@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+*{  
+    margin: 0;
+    padding:0;
+ }
+
+ .home{
+    text-align: center;
+ }
+
+
+
+ h1{
+    font-size: 50px;
+    color:var(--black);
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    padding: 20px;
+    
+ }
+   h3{
+    font-size: 30px;
+    color:var(--black);
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    padding: 20px;
+    
+ }
+    p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 23px;
+    color:var(--black);
+    line-height: 1;  
+    text-align: center;
+    } 
+    .facility .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+        gap:24px;
+        align-items: flex-start;
+     }
+     
+     .facility .box-container .box{
+        text-align: center;
+     }
+     
+     
+     .facility .box-container .box img{
+        height: 160px;
+        margin-bottom: 8px;
+     }
+     
+     .facility .box-container .box h3{
+        font-size: 32px;
+        color:var(--black);
+        margin:1rem 0;
+     }
+     
+     .facility .box-container .box p{
+        line-height: 2;
+        font-size: 24px;
+        color:var(--light-color);
+     }
+     
+    .morebtn{
+        text-align: center;
+        align-items: center;
+    }
+ .btn{
+    border:none;
+    color:white;
+    padding: 12px 34px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: transparent ;
+    position: relative;
+    cursor: pointer; 
+    background: peru;
+    border-radius: 20px;
+    outline:none;
+ }
+ .btn:hover{
+    background-color:orange;
+    transition:1s;
+    text-decoration: underline;
+    
+ }
+
+  
+
+  
+    

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{  
+    margin: 0;
+    padding:0;
+ }
+ body{
+    background: white  ;
+ }
+ 
+ h1{
+    padding-top: 25px;
+    
+ }
+  h1::after{
+    content: '';
+    width:0%;
+    height: 2px;    
+    display:block ;
+    margin:auto;
+    transition: 0.5s;
+     
+ }
+
+
+h1:hover{
+    width: 100%;
+    text-decoration: underline;
+    
+ }
+ 
+ .team{
+    font-family: 'Merienda One', cursive;
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-left: 50px;
+
+ }
+ 
+ .team101{
+    width: 80%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 40px;
+ }
+ .team101 img{
+    width: 100%;
+    cursor:pointer;
+
+ }
+  .btn{
+
+    border:none;
+    color:white;
+    padding: 12px 34px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: transparent ;
+    position: absolute;
+    cursor: pointer; 
+    background: peru;
+    border-radius: 20px;
+    outline:none;
+    text-align: center;
+ }
+ .btn:hover{
+    background-color:#FFD580;
+    transition:1s;
+    text-decoration: underline;
+    
+ }
+ .morebtn{
+    text-align: center;
+ }

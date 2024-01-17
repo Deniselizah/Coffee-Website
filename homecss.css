@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+ }
+ .home-bg{
+    min-height: 100vh;  
+    width: 100%;
+    /* background:url(../images/home-bg.jpg) no-repeat; */
+   background:url("images/home-bg.jpg") no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    position:relative 
+    
+
+ }
+ .header{
+   
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    
+ }
+
+ nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items: center ;     
+ }
+ nav img{
+    width: 40px;
+ }
+ .nav-links{
+    flex: 1;
+    text-align: right ;
+ }
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+ }
+ .nav-links ul li a{
+    text-decoration: none;
+    font: size 15px;
+    color: var(--black);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+ }
+ .nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background:peru;
+    display:block ;
+    margin:auto;
+    transition: 0.5s;
+     
+ }
+ .nav-links ul li:hover{
+    color: peru;
+
+ }
+
+ .nav-links ul li:hover::after{
+    width: 100%;
+    
+ } 
+
+ 
+ .content{   
+    width:90%;
+    color:black; 
+    top: 50%;
+    left: 50%; 
+    transform:translate(-20%,120%);
+    text-align:center;
+ }
+ .content h3{
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+ }
+ .content p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color:var(--black);
+    line-height: 1;
+
+ }
+ .btn{
+    border:none;
+    color:white;
+    padding: 12px 34px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: transparent ;
+    position: relative;
+    cursor: pointer; 
+    background: peru;
+    border-radius: 20px;
+    outline:none;
+ }
+ .btn:hover{
+    background-color:orange;
+    transition:1s;
+    text-decoration: underline;
+    
+ }
+
+      /*---------------------------menu----------------------*/
+
+.about{
+    width:80%;
+    margin:auto;
+    text-align:right;
+    padding-top: 100px;
+}
+
+#us{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Merienda One', cursive;
+    transform:translate(120%,-50%);
+}
+p{
+    color:black;
+    font-size:14px;
+    font-weight:300;
+    line-height: 22px;
+    padding: 10px;
+}
+   
